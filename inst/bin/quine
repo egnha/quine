@@ -1,0 +1,6 @@
+#! /usr/bin/env Rscript
+(function() {
+  cat("#! /usr/bin/env Rscript\n")
+  cat("(", paste(deparse(call("function", NULL, body())), collapse = "\n"),
+      ")()", sep = "")
+})()

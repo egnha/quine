@@ -12,6 +12,10 @@ A trival (non-empty)
 for the hell of it: the functions `quine_lang()` and `quine_str()` are
 quines that output a language object and string, respectively.
 
+The file `inst/bin/quine` is the same quine function as a script.
+Executing it outputs its contents, i.e., `cat quine` and `./quine` are
+identical.
+
 ## Installation
 
 ``` r
