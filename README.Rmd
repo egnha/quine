@@ -13,6 +13,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![Travis build status](https://travis-ci.org/egnha/quine.svg?branch=master)](https://travis-ci.org/egnha/quine)
+
 # quine
 
 A trival (non-empty) [quine](https://en.wikipedia.org/wiki/Quine_(computing)) in

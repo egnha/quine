@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+[![Travis build
+status](https://travis-ci.org/egnha/quine.svg?branch=master)](https://travis-ci.org/egnha/quine)
+
 # quine
 
 A trival (non-empty)
