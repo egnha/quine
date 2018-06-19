@@ -2,11 +2,17 @@
 % Please edit documentation in R/quine.R
 \name{quine}
 \alias{quine}
+\alias{quine_lang}
+\alias{quine_str}
 \title{A Self-Reproducing Function}
 \usage{
-quine()
+quine_lang()
+
+quine_str()
 }
 \description{
-\code{quine()} is a non-empty function whose only output is a copy of its own
-source code (as a \link[=is.language]{language} object).
+A \href{https://en.wikipedia.org/wiki/Quine_(computing)}{quine} is a (non-empty)
+function whose only output is a copy of its own source code: \code{quine_lang()}
+and \code{quine_str()} are quines that output a \link[=is.language]{language} object
+and a string, respectively.
 }

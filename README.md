@@ -9,8 +9,8 @@ status](https://travis-ci.org/egnha/quine.svg?branch=master)](https://travis-ci.
 
 A trival (non-empty)
 [quine](https://en.wikipedia.org/wiki/Quine_\(computing\)) in R, just
-for the hell of it: the function `quine()` outputs its own source code
-as a language object.
+for the hell of it: the functions `quine_lang()` and `quine_str()` are
+quines that output a language object and string, respectively.
 
 ## Installation
 
