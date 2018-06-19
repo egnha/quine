@@ -2,11 +2,17 @@ context("Quine")
 
 test_that("quine_lang() reproduces its source code as a language object", {
   src <- call("function", NULL, body(quine_lang))
-  expect_identical(quine_lang(), src)
+  out <- quine_lang()
+
+  expect_identical(out, src)
+  expect_type(out, "language")
 })
 
 test_that("quine_str() reproduces its source code as a string", {
   src <- call("function", NULL, body(quine_str))
   src <- paste(deparse(src), collapse = "\n")
-  expect_identical(quine_str(), src)
+  out <- quine_str()
+
+  expect_identical(out, src)
+  expect_type(out, "character")
 })
