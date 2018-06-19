@@ -11,12 +11,12 @@ NULL
 #' @rdname quine
 #' @export
 quine_lang <- function() {
-  call("function", NULL, body(quine_lang))
+  call("function", NULL, body())
 }
 
 #' @rdname quine
 #' @export
 quine_str <- function() {
-  expr <- call("function", NULL, body(quine_str))
+  expr <- call("function", NULL, body())
   paste(deparse(expr), collapse = "\n")
 }
