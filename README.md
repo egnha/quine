@@ -3,6 +3,7 @@
 
 [![Travis build
 status](https://travis-ci.org/egnha/quine.svg?branch=master)](https://travis-ci.org/egnha/quine)
+[![codecov](https://codecov.io/gh/egnha/quine/branch/master/graph/badge.svg)](https://codecov.io/gh/egnha/quine)
 
 # quine
 

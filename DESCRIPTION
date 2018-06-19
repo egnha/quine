@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Eugene", "Ha", , "eha@posteo.de", c("aut", "cre"))
 Description: A quine is a non-empty computer program which takes no input and
   produces a copy of its own source code as its only output.
-Suggests: testthat
+Suggests: testthat, covr
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 6.0.1.9000
